@@ -119,8 +119,8 @@ VALUE csv_scan(VALUE self, VALUE port) {
         }
 
         StringValue(str);
-        memcpy( p, RSTRING(str)->ptr, RSTRING(str)->len );
-        len = RSTRING(str)->len;
+        memcpy( p, RSTRING_PTR(str), RSTRING_LEN(str) );
+        len = RSTRING_LEN(str);
         nread += len;
 
         /* If this is the last buffer, tack on an EOF. */

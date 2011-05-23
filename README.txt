@@ -1,10 +1,10 @@
 = csvscan
 
-http://github.com/sandofsky/csvscan
+http://github.com/dvdplm/csvscan
 
 == DESCRIPTION:
 
-This is a packaged version of CSVScan, written by MoonWolf. If you can read Japanese, checkout README.ja for whatever he said.
+This is a packaged version of CSVScan, written by MoonWolf. If you can read Japanese, checkout README.ja for whatever he said. This particular fork has some fixes to make the extension compile on ruby 1.9.
 
 On a 10,000 line file:
 
@@ -39,7 +39,7 @@ On a 10,000 line file:
 
 == INSTALL:
 
-* gem install sandofsky-csvscan --source http://gems.github.com
+* gem install dvdplm-csvscan --source http://gems.github.com
 
 == LICENSE:
 
